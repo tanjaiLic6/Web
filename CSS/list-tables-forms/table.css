@@ -1,0 +1,32 @@
+.table {
+    margin: 0 auto;
+}
+
+.t1{
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+th{
+    background-color: red;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 10px;
+
+}
+
+.t1 tr td {
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+
+
+
+tr:nth-child(odd){
+    background-color:grey;
+}
+
+tr:hover{
+    background-color: yellow;
+}

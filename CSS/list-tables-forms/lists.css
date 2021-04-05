@@ -1,0 +1,26 @@
+.ul-li{
+    list-style-type:circle;
+}
+.ul2-li{
+    list-style-type:square;
+}
+}
+.ol-li{
+    list-style-type: upper-alpha;}
+
+.ol2-li{
+        list-style-type: lower-roman;}
+
+
+.first{
+    list-style-image:url("/CSS/list-tables-forms/up-arrow.png") ;
+    width: 200px;
+   
+}
+
+.second{
+    list-style-image:url("/CSS/list-tables-forms/up-arrow.png") ;
+    list-style-position: inside;
+    width: 200px;
+}
+    

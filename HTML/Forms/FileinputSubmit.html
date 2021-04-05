@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="./handle-upload.html" method="GET">
+      <fieldset>
+        <legend>Before</legend>
+        <label for="before-img">Photo of you before</label>
+        <input type="file" name="before-img" /><br /><br />
+        <label for="text1">Say something about this photo</label><br /><br />
+        <textarea name="text1" id="text1" cols="30" rows="10"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Now</legend>
+        <label for="now-img">Photo of you now</label>
+        <input type="file" name="now-img" /><br /><br />
+        <label for="text2">Say something about this photo</label><br /><br />
+        <textarea name="text2" id="text2" cols="30" rows="10"></textarea>
+      </fieldset>
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>

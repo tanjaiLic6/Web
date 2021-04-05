@@ -1,0 +1,66 @@
+
+
+body {
+font-size: 20px;
+font-weight: bold;
+
+}
+
+@font-face { 
+font-family: 'forfirstparagraf';
+src: url('/CSS/TEXT/fonts/NewTegomin-Regular.ttf');
+
+}
+
+.p1{
+    
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'forfirstparagraf';
+    text-align: left;
+}
+
+.p2{
+    font-family:'Train One', cursive; 
+    text-decoration: line-through;
+    text-align: right;
+    
+}
+
+.p3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.p3>span {
+    font-style: italic;
+    color: blueviolet;
+}
+
+.p4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 5px;
+    line-height: 2em;
+
+}
+
+q:first-child {
+   font-family:cursive;
+}
+
+a{
+    color: red;
+    /* text-shadow:  3px 0px 1px #a82987; */
+
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: blue;
+}
