@@ -1,0 +1,15 @@
+$crvena :rgb(255,0,0);
+$plava :rgb(0,255,255);
+.first{
+
+border: 1px solid black;
+
+    p {color:$crvena;}
+}
+
+.second{
+
+    border: 1px solid black;
+    
+        p {color:$plava;}
+    }

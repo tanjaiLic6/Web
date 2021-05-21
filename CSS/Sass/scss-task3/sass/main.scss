@@ -1,0 +1,23 @@
+.p1{
+    border: 5px solid red;
+}
+
+
+.p2{
+    @extend .p1;
+    border-color: blue;
+}
+
+.p3{
+    @extend .p1;
+    border-color: green;
+}
+
+div{
+    width: 900px ;
+    background-color: hotpink;
+}
+
+p{
+width: 450px/900px*100% ;
+}
