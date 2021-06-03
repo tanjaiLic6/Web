@@ -1,0 +1,57 @@
+header{
+    font-family: latoBold;
+    font-weight: 800;
+ .navbar{
+    background-color: $blueish;
+ }
+  .container .white{
+    color: $textColor;
+}
+ .nav-link{
+    color: $textColor;
+ }
+ .container button {
+    color: $textColor;
+    background-color:$greenesh;
+ }
+
+ .container .menu{
+    display: inline-block;
+ }
+
+ .fas{
+  color: white;
+ }
+
+ .navbar-nav .ul{
+    padding: 0;
+ }
+
+
+ .navbar-light .white .navbar-toggler-icon{
+    color: $textColor;
+ }
+ .portfolio{
+    background-color: $greenesh;
+    color: $textColor;
+    margin-top: 3em;
+    .profile-img{
+        width: 12em;
+    }
+ }
+
+ hr.solid {
+    border-top: 3px solid #bbb;
+  }
+  .line{
+   
+    @include separator($textColor);
+  }
+  h1{
+      font-size: 3rem;
+      font-weight: 800;
+      font-family: sans-serif;
+  }
+}
+
+ 

@@ -1,0 +1,40 @@
+body{
+    position: relative;
+    
+}
+
+p{
+    width: 1500px;
+   margin: 0 auto;
+   text-align: justify;
+}
+
+.img1{
+    position: relative;
+    top:50px;
+    left: 100px;
+    margin-bottom: 30px;
+}
+
+.img2{
+    position:absolute;
+    top:15px;
+    right: 10px;
+}
+
+.img3{
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+
+
+.img-up{
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color:red;
+    scroll-behavior: smooth;
+}

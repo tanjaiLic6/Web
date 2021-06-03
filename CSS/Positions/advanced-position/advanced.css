@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+/* stilizing main wraper  */
+.wrap {
+    width: 50%;
+    background-color: orangered;
+    margin: 0 auto;
+}
+
+/* stilizing nav and lists */
+.nav{ 
+    display: inline-block;
+    list-style: none;
+}
+
+li>ul {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav>li{
+    float: left;
+    padding: 15px;
+    margin: 5px 5px ;
+
+    
+}
+
+.nav >li:hover{
+    background-color: blanchedalmond;
+}
+
+.rel-li{
+    position: relative;
+}
+.rel-li:hover .sub-ul{
+    visibility: visible;
+}
+
+
+
+.sub-ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 150px;
+    visibility:hidden;
+    background-color:rgb(224, 210, 210) ;
+
+}
+
+.sub-ul li a{
+    padding-left:  15px;
+}
+
+.sub-ul :hover{
+    background-color: honeydew;
+}
+
+
+
+
+

@@ -1,0 +1,22 @@
+#slika {
+  width: 300px;
+  box-shadow: 2px 2px goldenrod; }
+
+.title {
+  background-color: #78c83c; }
+
+h1 {
+  background-color: #0a0032;
+  text-shadow: 2px 2px #FF0000; }
+
+table {
+  background-color: #a526a5; }
+  table tr {
+    color: #0a0032; }
+  table td {
+    color: #78c83c;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px; }
+
+/*# sourceMappingURL=id.css.map */

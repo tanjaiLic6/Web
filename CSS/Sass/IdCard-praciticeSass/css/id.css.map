@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAQA,MAAM;EACN,KAAK,ECLG,KAAK;ECWb,UAAU,EAAC,iBAAkB;;AFF7B,MAAM;EACJ,gBAAgB,ECdV,OAAe;;ADiBvB,EAAE;EACE,gBAAgB,ECjBZ,OAAY;ECQpB,WAAW,EAAC,eAAgB;;AFgB5B,KAAK;EACH,gBAAgB,ECxBL,OAAiB;EDyB5B,QAAE;IACC,KAAK,EC3BF,OAAY;ED6BlB,QAAE;IACC,KAAK,EC/BF,OAAe;ICCnB,OAAO,EF+BY,IAAI;IE9BvB,MAAM,EF8Ba,IAAI;IE7BvB,SAAS,EF6Be,IAAI",
+"sources": ["../sass/id.scss","../sass/_variables.scss","../sass/_mixins.scss"],
+"names": [],
+"file": "id.css"
+}

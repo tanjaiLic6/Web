@@ -1,0 +1,17 @@
+.heading{
+    width: 960px;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: indianred;
+    color: lightblue;
+    font-family: 'Architects Daughter', cursive;
+    -webkit-box-shadow: -1px 1px 25px 25px rgba(39,189,28,1);
+    -moz-box-shadow: -1px 1px 25px 25px rgba(39,189,28,1);
+    box-shadow: -1px 1px 25px 25px rgba(39,189,28,1);
+    border-radius: 15%;
+
+}

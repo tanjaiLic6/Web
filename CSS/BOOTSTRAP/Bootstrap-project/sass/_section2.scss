@@ -1,0 +1,20 @@
+.section-2{
+    background-color: $greenesh ;
+    color: $textColor;
+
+    .line{
+        @include separator($textColor);
+
+    }
+    .btn{
+        color:$textColor ;
+    }
+    .btn:hover{
+        color:$greenesh ;
+        img{
+            background-color:$greenesh ;
+        }
+    }
+    
+
+}

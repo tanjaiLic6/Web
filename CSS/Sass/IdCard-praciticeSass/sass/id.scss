@@ -1,0 +1,36 @@
+
+
+
+@import 'variables';
+@import 'mixins';
+
+
+
+#slika{
+width: $width1;
+@include boxShadow();
+}
+
+.title{
+  background-color: $color1;  
+}
+
+h1{
+    background-color: $color2;
+    @include textShadow();
+}
+
+
+
+
+table{
+  background-color: $color-table;
+  tr{
+     color: $color2;
+  }
+  td{
+     color:$color1;
+      @include padding(10px,25px);
+  }
+}
+

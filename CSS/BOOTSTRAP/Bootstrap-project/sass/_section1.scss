@@ -1,0 +1,13 @@
+.section1{
+
+    
+    .p-title{
+        color: $blueish;
+        font-family: latoBold;
+        font-weight: 800;
+    }
+    .line{
+        
+        @include separator($blueish);
+      }
+}

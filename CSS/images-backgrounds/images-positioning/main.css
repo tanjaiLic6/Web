@@ -1,0 +1,25 @@
+#firstPicture {
+    display: block;
+    margin: 20px;
+    height: 200px;
+    float: right;
+}
+
+#secondPicture {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    clear: both;
+    
+}
+
+#thirdPicture {
+    display: block;
+    height: 200px;
+    margin: 20px;
+    width: 200px;
+    float: left;
+}
+
+
+    
