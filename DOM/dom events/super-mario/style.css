@@ -3,6 +3,12 @@
 	100% { background-position: -300px 0; }
 }
 
+@keyframes animatedBackgroundleft {
+	0% { background-position: 0 0; }
+	100% { background-position: 300px 0; }
+}
+
+
 
 
 .main{
@@ -25,7 +31,12 @@
 
 }
 
-.run{
+.run-right{
     animation: animatedBackground 10s linear infinite;
 }
+
+.run-left{
+    animation: animatedBackgroundleft 10s linear infinite;
+}
+
 

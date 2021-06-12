@@ -7,15 +7,26 @@ function moving(e){
     if (e.keyCode===39){ 
 //    img.src='./assets/mario_running.gif';
 mario.innerHTML='<img class="img" src="./assets/mario_running.gif" alt="">';
-    main.classList.add('run');}
+    main.classList.add('run-right');}
+     if(e.keyCode===37){
+        mario.innerHTML='<img class="img" src="./assets/mario-runing-left.gif" alt="">';
+        main.classList.add('run-left')
+    }
 }
+
+
 
 function stop(e){
 if(e.keyCode===39){
     // img.src='./assets/mario.png';
-    mario.innerHTML='<img class="img" src="./assets/mario.png" alt=""></img>'
-    main.classList.remove('run');
+    mario.innerHTML='<img class="img" src="./assets/mario.png" alt=""></img>';
+    main.classList.remove('run-right');
 }
+ if(e.keyCode===37){
+    mario.innerHTML='<img class="img" src="./assets/mario-left.png" alt=""></img>';
+    main.classList.remove('run-left');
+}
+
 }
 
 
