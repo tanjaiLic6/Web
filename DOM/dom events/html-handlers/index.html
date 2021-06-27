@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button onclick="changeColor()">Toglle background</button>
+    <button onclick="stop()">Turn off</button>
+    <script>
+        var start;
+        function changeColor() {
+           var element = document.querySelector("body");
+           start=setInterval(element.classList.toggle("blue"),3000);
+        }
+
+
+        // function removeClass(){
+        //     var element = document.querySelector("body"); 
+        //     element.classList.remove("blue");
+        // }
+       function stop(){
+           clearInterval(start);
+       }
+
+        </script>
+</body>
+</html>
