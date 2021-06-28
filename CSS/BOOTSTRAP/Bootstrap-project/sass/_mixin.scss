@@ -1,0 +1,7 @@
+@mixin separator($color) {
+    display: inline-block;
+    background-color:$color ;
+    width: 50px;
+    border: 2px solid;
+    margin-bottom:3px ;
+}

@@ -1,0 +1,18 @@
+@mixin padding($paddi,$kkk) {
+    padding: $paddi;
+    margin: $paddi;
+    font-size: $kkk;
+}
+
+
+@mixin textShadow() {
+
+text-shadow:2px 2px #FF0000 ;
+
+}
+
+@mixin boxShadow() {
+
+box-shadow:2px 2px goldenrod ;
+
+}

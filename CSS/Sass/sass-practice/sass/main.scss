@@ -1,0 +1,20 @@
+
+$green:rgb(0,255,0);
+$size-font:25px;
+
+@mixin shadowing() {
+    text-shadow:2px 2px #FF0000 ;
+    box-shadow: 5px 10px #888888;
+
+    
+}
+
+.p2{
+    @include shadowing();
+    border: 5px solid grey;
+}
+
+// .p1{
+//    background-color: $green;
+//    font-size: $size-font;
+// }
