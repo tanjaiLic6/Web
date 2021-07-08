@@ -1,0 +1,18 @@
+.navbar{
+    background-color: $navFooterColor;
+    .navbar-brand{
+        color:$white;
+    }
+
+    input{
+        width: 15em;
+    }
+}
+
+ul{
+    position:absolute;
+    background-color: wheat;
+    list-style: none;
+    width: 15em;
+}
+
