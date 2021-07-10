@@ -2,17 +2,29 @@
     background-color: $navFooterColor;
     .navbar-brand{
         color:$white;
+        cursor: pointer;
     }
+ 
 
+    
     input{
         width: 15em;
     }
+
+
 }
+
+
 
 ul{
     position:absolute;
-    background-color: wheat;
+    background-color: white;
     list-style: none;
     width: 15em;
+    padding-left: 14px;
+    padding-right: 14px;
+    li{
+        border-bottom: 1px solid black;
+    }
 }
 

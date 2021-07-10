@@ -1,15 +1,20 @@
 .navbar {
   background-color: #343a40; }
   .navbar .navbar-brand {
-    color: #ffffff; }
+    color: #ffffff;
+    cursor: pointer; }
   .navbar input {
     width: 15em; }
 
 ul {
   position: absolute;
-  background-color: wheat;
+  background-color: white;
   list-style: none;
-  width: 15em; }
+  width: 15em;
+  padding-left: 14px;
+  padding-right: 14px; }
+  ul li {
+    border-bottom: 1px solid black; }
 
 h1 {
   text-align: center;
@@ -25,5 +30,28 @@ p {
   border: 1px solid black;
   width: 100%;
   margin: 0 auto 2.5em; }
+
+.img-info {
+  width: 70%; }
+
+.season-list {
+  position: static;
+  list-style: square;
+  z-index: -22; }
+  .season-list li {
+    border: none; }
+
+.cast-list, .ep-list, .crew-list {
+  list-style: square;
+  position: static; }
+  .cast-list li, .ep-list li, .crew-list li {
+    border: none; }
+
+.crew-list {
+  width: auto; }
+
+.summary p {
+  border: none;
+  padding: 0; }
 
 /*# sourceMappingURL=style.css.map */

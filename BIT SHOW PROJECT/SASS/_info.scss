@@ -1,0 +1,42 @@
+.img-info{
+    width: 70%;
+}
+
+.season-list{
+    position: static;
+    list-style: square;
+    z-index: -22;
+    li{
+        border: none;
+    }
+}
+
+.cast-list{
+    list-style: square;
+    position: static;
+    li{
+        border: none;
+    }
+
+
+}
+
+.ep-list{
+   @extend .cast-list;
+}
+
+.crew-list{
+    @extend .cast-list;
+    width: auto;
+}
+
+
+
+.summary{
+    p{
+        border: none;
+        padding: 0;
+    }
+}
+
+

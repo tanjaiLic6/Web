@@ -2,12 +2,6 @@
 let TvShows= new Shows();
 var allShows= new Shows();
 let container=document.querySelector('.container');
-let form=document.querySelector('form');
-
-let searchInput=document.querySelector('.form-control');
-searchInput.addEventListener("search",searchShows);
-let ul=document.createElement('ul');
-
 
 function getShows(){ 
 
@@ -23,6 +17,7 @@ function getShows(){
             TvShows.listOfShows[0].length=50;
             let x=0;
             let listShows=TvShows.listOfShows[0];
+            console.log(listShows )
           
             for (let i=0; i<listShows.length;i++){ 
              if(x===4){
@@ -39,6 +34,7 @@ function getShows(){
              if (x>0&&x<4){ 
               x++
               let div=document.createElement('div');
+              div.setAttribute('id',listShows[i].id)
               div.classList='col-7 col-sm-7 col-md-4 col-lg-3';
               let img= document.createElement('img');
               img.classList='img-fluid';
@@ -72,53 +68,32 @@ getShows();
 
 
 
-function searchShows(){
-    let xmlhttp = new XMLHttpRequest(); 
-    let url= 'http://api.tvmaze.com/shows';
-    xmlhttp.open('GET',url);
-    xmlhttp.onload=function(){
-        if(xmlhttp.status>=200&&xmlhttp.status<400){
-            let response=JSON.parse(xmlhttp.response);
-            allShows.listOfShows.push(response);
-            let list=allShows.listOfShows[0];
-            console.log(list);
-            let searchShow=searchInput.value.toUpperCase();
-            console.log(searchShow)
-            let searchHelpArray=[];
-            console.log(searchHelpArray)
-              
-            for(let i=0; i<list.length; i++){
-               
-                if(list[i].name.toUpperCase().indexOf(searchShow)>=0){
-                    let li=document.createElement('li');
-                    searchHelpArray.push(list[i].id);
-                    li.textContent=list[i].name;
-                    li.setAttribute('id',list[i].id);
+document.querySelector('.container').addEventListener('click',function(e){ 
 
-                    if(searchHelpArray.length<=9 ){
-                        ul.append(li);
-                        form.append(ul);
+    let div=e.target.parentNode;
+    // console.log(div.id)
+    let showName=div.children[1].textContent;
+    let poster=div.children[0].src;
+    let showId=div.id;
+    console.log(showId)
 
-                    }
-                    
-                    
-               
-                }
-                else{
+    
+    
+    localStorage.setItem('id',showId);
 
-                }
-                
-            }
-             
-            searchShow.value='';
+  window.location.href = "./info-page.html";
 
-        }
-     }
-
-        xmlhttp.send();
+})
 
 
-}
+
+
+
+
+
+
+
+
 
 
 
