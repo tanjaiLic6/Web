@@ -9,9 +9,6 @@ let crewList=document.querySelector('.crew-list');
 let pAkas=document.querySelector('.p-akas');
 
 
-
-
-
 function getInfo(){
     let localId=localStorage.getItem("id");
     console.log(localId)
@@ -80,21 +77,13 @@ function getInfo(){
                     
                 }
            
-                    
-
-
-
 
              }
-
-
-
 
            }
 
 
          xmlhttp3.send();
-
 
         /////////////////////////////////////////////////////////////////////// 
       }
@@ -156,10 +145,8 @@ function getInfo(){
            li.textContent='Crew position:'+type+'-'+crewName;
            crewList.append(li);
 
-
         }
 
-        
 
     }
 
