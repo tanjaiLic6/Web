@@ -6,6 +6,8 @@ let numOfSeasons=document.querySelector('.seasons-num');
 let seasonList=document.querySelector('.season-list')
 let castList=document.querySelector('.cast-list');
 let crewList=document.querySelector('.crew-list');
+let pAkas=document.querySelector('.p-akas');
+
 
 
 
@@ -166,10 +168,27 @@ function getInfo(){
 
   xmlhttp5.send();
 
-
   //////////////////////////////////////////////////////////////////////////////////////////////////////
    
 
+  let url6='https://api.tvmaze.com/shows/'+localId+'/akas';
+  let xmlhttp6 = new XMLHttpRequest(); 
+  xmlhttp6.open('GET',url6);
+  xmlhttp6.onload=function(){
+    if(xmlhttp6.status>=200&&xmlhttp6.status<400){
+      let response6=JSON.parse(xmlhttp6.response); 
+       for (let i=0; i<5; i++) {
+        let aka=response6[i].name;
+         if(i===4){
+          pAkas.textContent+=aka;
+         }
+        
+      else   pAkas.textContent+=(aka+', ');
+         
+       }
+    }
+  }
+  xmlhttp6.send();
 }
 
 getInfo()

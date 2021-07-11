@@ -32,7 +32,7 @@ p {
   margin: 0 auto 2.5em; }
 
 .img-info {
-  width: 70%; }
+  width: 80%; }
 
 .season-list {
   position: static;
@@ -52,6 +52,15 @@ p {
 
 .summary p {
   border: none;
-  padding: 0; }
+  padding: 0;
+  text-align: justify; }
+
+.footer {
+  padding: 0;
+  text-align: center; }
+  .footer div {
+    padding: 1em;
+    color: #ffffff;
+    background-color: #343a40; }
 
 /*# sourceMappingURL=style.css.map */
