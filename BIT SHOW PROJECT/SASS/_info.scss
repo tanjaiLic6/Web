@@ -3,6 +3,7 @@
 }
 
 .season-list{
+    cursor: pointer;
     position: static;
     list-style: square;
     z-index: -22;
@@ -23,6 +24,7 @@
 
 .ep-list{
    @extend .cast-list;
+   cursor: pointer;
 }
 
 .crew-list{
